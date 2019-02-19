@@ -1,0 +1,56 @@
+.hello {
+	height: 500px;
+	background-color: #B3380F;
+	color: white;
+	text-align: center;
+	padding-top: 350px;
+	}
+
+p {
+		font-size: 20px;
+	}
+	
+.aboutMe {
+	height: 500px;
+	background-color: #8CC3CA;
+	color: #192324;
+	padding-top: 250px;	
+	display: flex;
+	padding-left:300px;
+	}
+
+.avatar img {
+	width: 50%;
+	border-radius: 50px;
+}
+
+.gallery {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.gallery > img {
+	width: 50%;
+	}
+
+.goodBye {
+	height: 500px;
+	background-color: #273F66;
+	color: #D3D3D3;
+    text-align: center;
+	padding-top: 350px;
+}
+
+a > img {
+	width: 150px;
+}
+
+.avatar img:hover {
+	border: 2px solid white;
+}
+
+a img:hover {
+	outline: 2px solid white;
+}
+
